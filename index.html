@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets//css/style.css">
+    <title>Metodo de Trapezio</title>
+</head>
+
+<body>
+
+
+    <div class="sidebar">
+        <h2>Informações</h2>
+        <p>Este sistema resolve Integrais usando o método de Trapezio.</p>
+        <ul>
+            <li>
+                Use <code>x</code> e <code>y</code> como variáveis. Exemplo: <code>x + y</code>
+            </li>
+            <li>
+                Funções como seno e cosseno devem ser precedidas por <code>Math.</code>. Exemplo:
+                <code>Math.sin(x)</code>
+            </li>
+            <li>
+                Para potência, use <code>**</code>. Exemplo: <code>x**2</code>
+            </li>
+        </ul>
+    </div>
+
+    <header>
+        <h1>Metodo de Trapezio</h1>
+        <div class="header-links">
+            <a href="#">Home</a>
+            <a href="/about.html">About</a>
+            <a href="#">Informações</a>
+        </div>
+    </header>
+
+    <div class="container">
+
+
+        <div class="content">
+            <h2>Insira a Integral:</h2>
+            <label for="functionInput">f(x, y):</label>
+            <input type="text" id="functionInput" placeholder="Escreva a função...">
+
+            <label for="stepSize">Limite Inferior:</label>
+            <input type="number" id="inferior" placeholder="Digite o limite inferior...">
+
+            <label for="stepSize">Limite Superior:</label>
+            <input type="number" id="superior" placeholder="Digite o limite superior...">
+
+            <label for="stepSize">Número de Intervalos:</label>
+            <input type="number" id="n" placeholder="Digite o numero de intervalos...">
+
+
+            <button onclick="solveRungeKutta()">Resolver</button>
+
+            <div id="result"></div>
+            <div id="area"></div>
+            <div id="area"></div>
+            
+        </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+/* 
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        } */
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        code {
+            background-color: #f8f8f8;
+            padding: 2px 6px;
+            border: 1px solid #ddd;
+            font-family: monospace;
+        }
+    </style>
+    <title>Método do Trapézio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora do Metodo de Trapezio</h1>
+        <div class="header-links">
+            <a href="/index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Informações</a>
+        </div>
+    </header>
+
+    <section>
+
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>O Aplicativo de Resolução de Integracao numerica usando o Metodo de Trapezio foi desenvolvido por Keil Bambo, Herco Zau-zau e
+                Milton Maleaine uma equipe do DMI apaixonada por matemática e
+                programação. Nosso objetivo é fornecer uma ferramenta acessível e educativa para ajudar estudantes e
+                profissionais a entender e aplicar o método de Trapezio de em suas análises numéricas.</p>
+        </section>
+
+        <h2>O que é o Método do Trapézio?</h2>
+        <p>O método do trapézio é uma técnica de integração numérica utilizada para calcular aproximadamente a integral
+            definida de uma função. Ele divide a área sob a curva em segmentos de trapézio e calcula a soma dessas áreas
+            para obter uma estimativa da integral.</p>
+
+        <h2>Como Resolver uma integral Utilizando o Método do Trapézio?</h2>
+        <p>A fórmula para calcular a integral usando o método do trapézio é:</p>
+        <pre><code>
+I ≈ h/2 * [f(x0) + 2*f(x1) + 2*f(x2) + ... + f(xn)]
+        </code></pre>
+        <p>Onde:</p>
+        <ul>
+            <li><code>I</code> é a aproximação da integral</li>
+            <li><code>h</code> é o tamanho do intervalo entre os pontos</li>
+            <li><code>f(xi)</code> é o valor da função no ponto <code>xi</code></li>
+        </ul>
+
+        <p>É necessário escolher a função a ser integrada e definir os limites de integração (<code>a</code> e
+            <code>b</code>). Além disso, é preciso determinar o número de subintervalos (<code>n</code>) e calcular o
+            tamanho do intervalo <code>h</code> usando a fórmula <code>h = (b - a) / n</code>.</p>
+    </section>
+</body>
+
+</html>

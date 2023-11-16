@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1A293B;
+    color: #F0C14A;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.header-links a {
+    color: #F0C14A;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+
+    right: 0;
+
+    margin-top: 100px;
+    height: 100vh;
+
+
+    background-color: #2E4155;
+    /* Cor mais agradável para a sidebar */
+    color: #fff;
+    /* Texto branco na sidebar */
+}
+
+.sidebar h2 {
+    color: #F0C14A;
+}
+
+.content {
+
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+#functionInput {
+    width: calc(100% - 20px);
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
